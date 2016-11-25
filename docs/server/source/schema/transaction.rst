@@ -140,8 +140,8 @@ Condition.cid
 
 **type:** integer
 
-Index of this condition's appearance in the Transaction.conditions_ 
-array. In a transaction with 2 conditions, the ``cid``\ s will be 0 and 1.
+Index of this condition's appearance in the `Transaction.conditions`_
+array. In a transaction with 2 conditions, the ``cid``s will be 0 and 1.
 
 
 
@@ -323,5 +323,14 @@ User provided transaction metadata.
          padding: 6px;
          font-size: 100%;
          font-family: monospace;
+    }
+    .document .section p {
+        margin-bottom: 16px;
+    }
+    .notice {
+        margin: 0px 16px 16px 16px;
+        background-color: white;
+        border: 1px solid gold;
+        padding: 3px 6px;
     }
     </style>
